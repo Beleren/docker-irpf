@@ -4,8 +4,7 @@ Docker para IRPF (programa da Receita Federal para declaração de imposto de re
 
 ## Como usar
 
-1. ~~*Esse passo é opcional, mas importante caso não queira perder os dados quando o container for deletado*. Descomente a última linha em `docker-compose.yml`, modificando a parte antes do `:` para apontar para onde você quer que o IRPF salve os dados localmente. Caso a pasta local não exista, crie-a, ou o docker a criará como root gerando problemas na execução do IRPF.~~ **(NÃO ROLOU)**
-2. `docker-compose up --build`
+`docker-compose up --build`
 
 ## Próximos anos
 
@@ -14,3 +13,8 @@ Para usar esse código no ano que vem, talvez seja só editar o `Dockerfile`, at
 ## Créditos
 
 Inspirado em [eszanon/dockerized-irpf-2017](https://github.com/eszanon/dockerized-irpf-2017), [farribeiro/wscef-docker](https://github.com/farribeiro/wscef-docker) e [felipewer/irpf](https://github.com/felipewer/irpf). Esse último eu só vi depois de ter feito este código, e os dois são bem parecidos... Talvez uma vantagem deste aqui é usar o Alpine Linux, que é um pouco menor.
+
+# Referências de DIRPF
+
+- [NuBank](https://blog.nubank.com.br/como-declarar-nuconta-no-imposto-de-renda/?utm_source=notification&utm_medium=email&utm_campaign=tc2F2aW5ncy90YXgtcmVwb3J0L2VtYWlscy90YXgtcmVwb3J0LTIwMTktMnBhZ2VzL3Yx)
+- [SEBRAE: MEI x Imposto de renda](https://www.sebrae.com.br/sites/PortalSebrae/artigos/como-o-mei-faz-a-declaracao-de-imposto-de-renda,2f48921aaebab510VgnVCM1000004c00210aRCRD)
