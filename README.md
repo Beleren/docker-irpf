@@ -4,7 +4,10 @@ Docker para IRPF (programa da Receita Federal para declaração de imposto de re
 
 ## Como usar
 
-`docker-compose up --build`
+- Se desejar salvar arquivos localmente, crie o path indicado no volumes `~/Documents/IRPF/2020`;
+- Inicie o programa com `docker-compose up --build`;
+
+Caso não queira salvar nada localmente, comente o segundo volume do `docker-compose-yml`.
 
 ## Próximos anos
 

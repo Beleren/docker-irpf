@@ -9,4 +9,4 @@ services:
       - _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on'
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      # - ~/Documents/IRPF/2020:/home/irpf/ProgramasRFB
+      - ~/Documents/IRPF/2020:/home/irpf/ProgramasRFB
